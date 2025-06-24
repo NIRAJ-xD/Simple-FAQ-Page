@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     text-align: center;
     background-color:#FFFFFF ;
-    padding: 80px 0;
+    padding: 60px 0;
 }
 .topic h1{
     font-size: 36px;
@@ -36,9 +36,17 @@ body{
     font-weight: 400;
     margin: 10px 0;
 }
+li{
+    margin: 10px 20px;
+}
+ol li{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
 .content{
-    width: clamp(300px, 100%, 600px);
-    margin: 0 auto;
+    width: clamp(300px, 100%, 650px);
+    margin: 50px auto;
 }
 .question{
     margin: 20px 0;
